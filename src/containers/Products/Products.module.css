@@ -1,0 +1,6 @@
+.Products {
+    padding: 0 15px;
+    margin-top: 60px;
+    display: flex;
+    flex-flow: wrap;
+}

@@ -1,0 +1,90 @@
+.Product {
+    box-shadow: 0px 1px 3px #77777729;
+    border-radius: 16px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    margin: 0 1% 30px;
+    width: 100%;
+    position: relative;
+}
+
+.Product img {
+    max-width: 100%;
+    height: 124px;
+    display: block;
+    margin: auto;
+}
+.Product p {
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+    overflow: hidden;
+    padding: 0 16px;
+}
+.Product span {
+    font-size: 12px;
+    color: #591FF8;
+}
+.Product span.Price {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background: transparent linear-gradient(242deg, #591FF8 0%, #2D1996 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    padding: 5px 8px;
+    margin: 15px;
+}
+.Actions {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+}
+.Actions li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+.Actions li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+
+}
+
+.Show {
+    display: block;
+}
+
+.Hide {
+    display: none;
+}
+
+.ShowAction {
+    background: #fff;
+    width: 30px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    border: 1px solid #333;
+    padding-top: 10px;
+}
+
+.ShowAction span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #333;
+    margin: auto;
+    margin-bottom: 3px;
+}
+
+@media (min-width: 786px) {
+    .Product {
+        width: 14%;
+        
+    }
+}
